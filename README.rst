@@ -23,13 +23,13 @@ Library for retrieving data from a DTE Energy Bridge
 Usage
 --------
 
-```python
-from dteenergybridge import dteenergybridge
+.. code-block:: python
 
-dte = dteenergybridge.DteEnergyBridge('192.168.1.11', 1)
+    from dteenergybridge import dteenergybridge
 
-print(dte.get_current_energy_usage())
-```
+    dte = dteenergybridge.DteEnergyBridge('192.168.1.1', 1)
+
+    print(dte.get_current_energy_usage())
 
 Credits
 ---------
