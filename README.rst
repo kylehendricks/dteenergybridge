@@ -20,10 +20,16 @@ Library for retrieving data from a DTE Energy Bridge
 * Free software: MIT license
 
 
-Features
+Usage
 --------
 
-* TODO
+```python
+from dteenergybridge import dteenergybridge
+
+dte = dteenergybridge.DteEnergyBridge('192.168.1.11', 1)
+
+print(dte.get_current_energy_usage())
+```
 
 Credits
 ---------
