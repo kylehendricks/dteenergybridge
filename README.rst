@@ -9,10 +9,6 @@ dteenergybridge
 .. image:: https://img.shields.io/travis/kylehendricks/dteenergybridge.svg
         :target: https://travis-ci.org/kylehendricks/dteenergybridge
 
-.. image:: https://pyup.io/repos/github/kylehendricks/dteenergybridge/shield.svg
-     :target: https://pyup.io/repos/github/kylehendricks/dteenergybridge/
-     :alt: Updates
-
 
 Library for retrieving data from a DTE Energy Bridge
 
