@@ -21,12 +21,12 @@ Usage
 
 .. code-block:: python
 
-    from dteenergybridge import dteenergybridge
+    from dteenergybridge import DteEnergyBridge
 
-    dte = dteenergybridge.DteEnergyBridge('192.168.1.1', 1)
+    dte = DteEnergyBridge('192.168.1.1', 1)
 
     print(dte.get_current_energy_usage())
-    
+
 DTE Energy Bridge hardware versions
 ------------------------------------
 
