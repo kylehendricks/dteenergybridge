@@ -23,6 +23,7 @@ deploy:
     tags: true
 install: pip install -U tox-travis
 language: python
+cache: pip
 python:
 - 3.6
 - 3.5
