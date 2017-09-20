@@ -12,10 +12,6 @@ requirements = [
     'requests'
 ]
 
-test_requirements = [
-    'requests'
-]
-
 setup(
     name='dteenergybridge',
     version='0.1.1',
@@ -27,7 +23,6 @@ setup(
     packages=find_packages(include=['dteenergybridge']),
     include_package_data=True,
     install_requires=requirements,
-    test_requires=test_requirements,
     license="MIT license",
     zip_safe=False,
     keywords='dteenergybridge',
