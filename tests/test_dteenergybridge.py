@@ -64,3 +64,12 @@ def test_bad_formatted_response():
         dte = DteEnergyBridge('127.0.0.1', 1)
         with pytest.raises(exceptions.InvalidResponseError):
             dte.get_current_energy_usage()
+
+
+def test_non_200_status_code():
+    with requests_mock.Mocker() as req_mock:
+        req_mock.get("http://127.0.0.1:80/instantaneousdemand",
+                     status_code=500)
+        dte = DteEnergyBridge('127.0.0.1', 1)
+        with pytest.raises(exceptions.InvalidResponseError):
+            dte.get_current_energy_usage()
