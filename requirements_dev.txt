@@ -12,3 +12,4 @@ cryptography==2.0.3
 PyYAML==3.12
 pytest==3.2.2
 pytest-runner==2.12.1
+coveralls>=1.1

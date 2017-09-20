@@ -29,3 +29,4 @@ python:
 - 3.5
 - 3.4
 script: tox
+after_success: coveralls

@@ -9,6 +9,9 @@ dteenergybridge
 .. image:: https://img.shields.io/travis/kylehendricks/dteenergybridge.svg
         :target: https://travis-ci.org/kylehendricks/dteenergybridge
 
+.. image:: https://img.shields.io/coveralls/kylehendricks/dteenergybridge.svg
+        :target: https://coveralls.io/r/kylehendricks/dteenergybridge?branch=master
+
 
 Library for retrieving data from a DTE Energy Bridge
 
