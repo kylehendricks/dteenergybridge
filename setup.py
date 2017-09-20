@@ -8,9 +8,6 @@ from setuptools import setup, find_packages
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
-with open('HISTORY.rst') as history_file:
-    history = history_file.read()
-
 requirements = [
     'requests'
 ]
@@ -23,7 +20,7 @@ setup(
     name='dteenergybridge',
     version='0.1.1',
     description="Library for retrieving data from a DTE Energy Bridge",
-    long_description=readme + '\n\n' + history,
+    long_description=readme,
     author="Kyle John Hendricks",
     author_email='kyle@hendricks.nu',
     url='https://github.com/kylehendricks/dteenergybridge',
