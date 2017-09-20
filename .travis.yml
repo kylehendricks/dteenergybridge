@@ -21,7 +21,7 @@ deploy:
     python: 3.6
     repo: kylehendricks/dteenergybridge
     tags: true
-install: pip install -U tox-travis
+install: pip install -U tox-travis coveralls
 language: python
 cache: pip
 python:
